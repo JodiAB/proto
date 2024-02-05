@@ -30,7 +30,7 @@ export default {
   body{
     width: 100%;
     height: 100vh;
-    
+
   }
   #app {
     font-family: Avenir, Helvetica, Arial, sans-serif;
@@ -40,10 +40,14 @@ export default {
   }
   nav {
     padding: 30px;
+    border: none;
+
   }
   nav a {
     font-weight: bold;
     color: darkgoldenrod;
+    border: none;
+
   }
   nav a.router-link-exact-active {
     color: beige;

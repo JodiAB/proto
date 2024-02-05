@@ -23,14 +23,15 @@
     justify-content: center;  
     background-color: transparent;
     text-align: center;
+    border: none;
     width: 92%;
     font-size: 18px;
-    gap: 6rem;
+    gap: 5rem;
     position: fixed;
-    box-shadow: 0px 1px 2px rgba(0,255,255,0.5), 
-    0px 2px 4px rgba(0,255,255,0.5), 
-    0px 4px 8px rgba(0,255,255,0.5), 
-    0px 8px 16px rgba(0,255,255,0.5);
+    box-shadow: 0px 0px 100em rgba(0,255,255,0.5), 
+    0px 0px 10px rgba(0,255,255,0.5), 
+    0px 0px 10px rgba(0,255,255,0.5), 
+    0px 0px 10px rgba(0,255,255,0.5);
   }
   
   nav a {
@@ -41,5 +42,21 @@
   nav a.router-link-exact-active {
     color: beige;
   }
+
+ /* nav img{
+    width: 50px;
+    position: relative;
+    top: 0%;
+    animation: animate 8s linear infinite;
+  }
+
+  @keyframes animate {
+      0% {
+        transform: rotate(0deg);
+      }
+      100% {
+        transform: rotate(360deg);
+      }
+    } */
   </style>
   
