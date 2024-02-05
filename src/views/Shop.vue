@@ -305,11 +305,6 @@ label {
   cursor: pointer;
 }
 
-.color:last-child {
-  background-color: white;
-  border: 1px solid black;
-}
-
 .size {
   padding: 5px 20px;
   border: 1px solid white;
